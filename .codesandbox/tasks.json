@@ -1,0 +1,98 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "lerna:publish": {
+      "name": "lerna:publish",
+      "command": "yarn lerna:publish",
+      "runAtStart": false
+    },
+    "lerna:publish:from-package": {
+      "name": "lerna:publish:from-package",
+      "command": "yarn lerna:publish:from-package",
+      "runAtStart": false
+    },
+    "lerna:changed": {
+      "name": "lerna:changed",
+      "command": "yarn lerna:changed",
+      "runAtStart": false
+    },
+    "lerna:build": {
+      "name": "lerna:build",
+      "command": "yarn lerna:build",
+      "runAtStart": false
+    },
+    "lerna:version": {
+      "name": "lerna:version",
+      "command": "yarn lerna:version",
+      "runAtStart": false
+    },
+    "lerna:build-all": {
+      "name": "lerna:build-all",
+      "command": "yarn lerna:build-all",
+      "runAtStart": false
+    },
+    "build-docs": {
+      "name": "build-docs",
+      "command": "yarn build-docs",
+      "runAtStart": false
+    },
+    "release": {
+      "name": "release",
+      "command": "yarn release",
+      "runAtStart": false
+    },
+    "release:dry": {
+      "name": "release:dry",
+      "command": "yarn release:dry",
+      "runAtStart": false
+    },
+    "test:unit": {
+      "name": "test:unit",
+      "command": "yarn test:unit",
+      "runAtStart": false
+    },
+    "test:2": {
+      "name": "test:2",
+      "command": "yarn test:2",
+      "runAtStart": false
+    },
+    "test:2.7": {
+      "name": "test:2.7",
+      "command": "yarn test:2.7",
+      "runAtStart": false
+    },
+    "test:3": {
+      "name": "test:3",
+      "command": "yarn test:3",
+      "runAtStart": false
+    },
+    "test:all": {
+      "name": "test:all",
+      "command": "yarn test:all",
+      "runAtStart": false
+    },
+    "use-vue:2": {
+      "name": "use-vue:2",
+      "command": "yarn use-vue:2",
+      "runAtStart": false
+    },
+    "use-vue:2.7": {
+      "name": "use-vue:2.7",
+      "command": "yarn use-vue:2.7",
+      "runAtStart": true
+    },
+    "use-vue:3": {
+      "name": "use-vue:3",
+      "command": "yarn use-vue:3",
+      "runAtStart": false
+    }
+  }
+}
